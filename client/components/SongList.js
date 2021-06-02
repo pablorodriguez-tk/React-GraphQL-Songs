@@ -7,7 +7,7 @@ class SongList extends Component {
     return this.props.data.songs.map((song) => {
       return (
         <ul key={song.id} className="collection-item">
-          song.title
+          {song.title}
         </ul>
       );
     });
